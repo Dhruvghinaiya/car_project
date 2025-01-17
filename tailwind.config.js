@@ -13,14 +13,20 @@ export default {
     theme: {
         extend: {
             width:{
-                '76':'17rem'
+                '76':'21rem',
+                '100':'26rem'
+            },
+            height:{
+                '22':'115px'
             },
             margin:{
                 '0.5':'2.5px',
-                'size':'2px'
+                'size':'2px',
+                '97':'28rem',
+                '70':'12rem'
             },
             fontFamily: {
-                DMSans:['DmSans']
+                DMSans:['DM Sans']
             },
             
         },

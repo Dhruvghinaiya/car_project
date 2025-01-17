@@ -34,48 +34,48 @@ const Sidebar = () => {
                                 />
                             </svg>
                             <div>
-                                <h2 className="font-bold ml-0.5 mt-[-1px] tracking-wider text-2xl  ">
+                                <h2 className="font-bold ml-0.5  text-[27px]  ">
                                     Motiv.
                                 </h2>
                             </div>
                         </div>
                         <div   div className="mt-8 flex flex-col gap-y-1">    
-                                <div className="flex items-center gap-x-2 text-[#5F6165] ml-5 bg-[#F3F5F8] rounded-lg  hover:bg-[#F3F5F8] p-2 mt-[5px] w-52">
+                                <div className="flex items-center gap-x-1 text-[#5F6165] ml-5  rounded-lg  hover:bg-[#F3F5F8] p-2 mt-[5px] w-[200px]">
                                     <DashboardIcon  />
-                                    <a href="#" className="text-[18px]" >Dashboard</a>
+                                    <a href="#" className="text-[18px]  tracking-tighter mt-[1px] ml-[4px]" >Dashboard</a>
                                 </div>
-                                <div className="flex items-center gap-2  text-[#5F6165]  ml-5 hover:bg-[#F3F5F8] p-2 w-52 ">
+                                <div className="flex items-center gap-2  text-[#5F6165]  ml-5  rounded-lg  hover:bg-[#F3F5F8] p-2 w-52 ">
                                     <AssetIcon />
-                                    <a href="#" className="text-lg ml-[2px] mt-[-2px]">Assets</a>
+                                    <a href="#" className="text-lg tracking-tighter ml-[1px] mt-[-4px]">Assets</a>
                                 </div>
                                 
-                                <div className="flex items-center gap-2 text-[#5F6165]  ml-5 hover:bg-[#F3F5F8]  p-2 w-52">
+                                <div className="flex items-center gap-2 text-[#5F6165]  ml-5  rounded-lg  hover:bg-[#F3F5F8]  p-2 w-52">
                                     <Booking  />
-                                    <a href="#" className="text-lg tracking-tight" >Booking</a>
+                                    <a href="#" className="text-lg  tracking-tighter" >Booking</a>
                                 </div>
                                 
-                                <div className="flex items-center gap-2 text-[#5F6165] hover:bg-[#F3F5F8] p-2 ml-5  w-52">
+                                <div className="flex items-center gap-2 text-[#5F6165]  rounded-lg  hover:bg-[#F3F5F8] p-2 ml-5  w-52">
                                     <SellCar  />
-                                    <a href="#" className="text-lg tracking-normal">Sell Cars</a>
+                                    <a href="#" className="text-lg  tracking-tight">Sell Cars</a>
                                 </div>
                                 
-                                <div className="flex items-center gap-2 text-[#5F6165] hover:bg-[#F3F5F8] p-2 ml-5  w-52">
+                                <div className="flex items-center gap-2 text-[#5F6165]  rounded-lg  hover:bg-[#F3F5F8] p-2 ml-5  w-52">
                                     <BuyCarIcon/>
-                                    <a href="#" className="text-lg">Buy Cars</a>
+                                    <a href="#" className="text-lg tracking-tighter">Buy Cars</a>
                                 </div>
                                 
-                                <div className="flex items-center gap-2 ml-5 text-[#5F6165] hover:bg-[#F3F5F8] p-2  w-52">
+                                <div className="flex items-center gap-2 ml-5 text-[#5F6165]  rounded-lg  hover:bg-[#F3F5F8] p-2  w-52">
                                     <Service  />
-                                    <a href="#" className="text-lg">Services</a>
+                                    <a href="#" className="text-lg tracking-tighter">Services</a>
                                 </div>
-                                
-                                <div className="flex items-center gap-2 text-[#5F6165] hover:bg-[#F3F5F8] ml-5 p-2   w-52">
+                                 
+                                <div className="flex items-center gap-2 text-[#5F6165]  rounded-lg  hover:bg-[#F3F5F8] ml-5 p-2   w-52">
                                     <Calender  />
-                                    <a href="#" className="text-lg">Calender</a>
+                                    <a href="#" className="text-lg tracking-tighter">Calender</a>
                                 </div>
-                                <div className="flex items-center gap-2 ml-5 text-[#5F6165] hover:bg-[#F3F5F8] p-2  w-52">
+                                <div className="flex items-center gap-2 ml-5 text-[#5F6165]  rounded-lg  hover:bg-[#F3F5F8] p-2  w-52">
                                     <Message  />
-                                    <a href="#" className="text-lg">Messages</a>
+                                    <a href="#" className="text-lg tracking-tighter ">Messages</a>
                                 </div>
                             </div>
                         </div>

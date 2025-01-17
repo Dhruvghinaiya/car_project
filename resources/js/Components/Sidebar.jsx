@@ -1,19 +1,17 @@
-import AssetIcon from "@/Components/Icons/AssetIcon";
-import Booking from "@/Components/Icons/Booking";
-import BuyCarIcon from "@/Components/Icons/BuyCarIcon";
-import Calender from "@/Components/Icons/Calender";
-import DashboardIcon from "@/Components/Icons/DashboardIcon";
-import Message from "@/Components/Icons/Message";
-import SellCar from "@/Components/Icons/sellCar";
-import Service from "@/Components/Icons/Service";
-import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import { Head } from "@inertiajs/react";
+import React from 'react'
+import DashboardIcon from './Icons/DashboardIcon'
+import AssetIcon from './Icons/AssetIcon'
+import Booking from './Icons/Booking'
+import SellCar from './Icons/sellCar'
+import BuyCarIcon from './Icons/BuyCarIcon'
+import Service from './Icons/Service'
+import Calender from './Icons/Calender'
+import Message from './Icons/Message'
 
-export default function Dashboard() {
-    return (
-        <>
-            <div className="bg-[#F5F5F5] h-screen">
-                {/* <div className="bg-white w-76 h-full">
+const Sidebar = () => {
+  return (
+    <>
+      <div className="bg-white w-76 h-full">
                     <div className=" mt-9 text-2xl">
                         <div className="flex ml-5  gap-3">
                             <svg
@@ -44,7 +42,7 @@ export default function Dashboard() {
                         <div   div className="mt-8 flex flex-col gap-y-1">    
                                 <div className="flex items-center gap-x-2 text-[#5F6165] ml-5 bg-[#F3F5F8] rounded-lg  hover:bg-[#F3F5F8] p-2 mt-[5px] w-52">
                                     <DashboardIcon  />
-                                    <a href="#" className="text-[18px] " >Dashboard</a>
+                                    <a href="#" className="text-[18px]" >Dashboard</a>
                                 </div>
                                 <div className="flex items-center gap-2  text-[#5F6165]  ml-5 hover:bg-[#F3F5F8] p-2 w-52 ">
                                     <AssetIcon />
@@ -81,8 +79,9 @@ export default function Dashboard() {
                                 </div>
                             </div>
                         </div>
-                </div> */}
-            </div>
-        </>
-    );
+                </div>
+    </>
+  )
 }
+
+export default Sidebar

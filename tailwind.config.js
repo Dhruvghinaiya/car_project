@@ -12,9 +12,17 @@ export default {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            width:{
+                '76':'17rem'
             },
+            margin:{
+                '0.5':'2.5px',
+                'size':'2px'
+            },
+            fontFamily: {
+                DMSans:['DmSans']
+            },
+            
         },
     },
 
